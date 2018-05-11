@@ -131,7 +131,7 @@ Parameter | Description | Default
 `tolerations` | List of node taints to tolerate (requires Kubernetes >= 1.6) | `[]`
 
 
-Specify each parameter you'd like to override using a YAML file as described above in the [installation](##Installing the Chart) section or by using the `--set key=value[,key=value]` argument to `helm install`. For example, to change the region and [expander](https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/FAQ.md#what-are-expanders):
+Specify each parameter you'd like to override using a YAML file as described above in the [installation](#installing-the-chart) section or by using the `--set key=value[,key=value]` argument to `helm install`. For example, to change the region and [expander](https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/FAQ.md#what-are-expanders):
 
 ```console
 $ helm install stable/cluster-autoscaler --name my-release \
